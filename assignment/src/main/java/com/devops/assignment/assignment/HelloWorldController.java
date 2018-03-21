@@ -22,7 +22,7 @@ public class HelloWorldController {
 
 	@GetMapping("/id")
 	public ResponseEntity<String> sendHelloResponse(){
-		return new ResponseEntity<String>("Hello"+"  "+appProp.getTextbox(),HttpStatus.OK);
+		return new ResponseEntity<String>("Completion of "+"  "+appProp.getTextbox() +""+"Course" ,HttpStatus.OK);
 				
 	}
 }
