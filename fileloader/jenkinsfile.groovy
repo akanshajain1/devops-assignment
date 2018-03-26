@@ -8,4 +8,5 @@ def printHello() {
   def value = "Hello, world!"
   return value
 }
+return this;
 
