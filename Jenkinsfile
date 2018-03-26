@@ -1,7 +1,10 @@
 stage 'Load a file from GitHub'
 node{
 def directory = pwd()
-        sh 'ls -l'
+        dir('/var/lib/jenkins/workspace/new_job'){
+                sh 'ls -l'
+        }
+        
 dir (directory){
         println "dir chane"
         sh 'ls -l'
