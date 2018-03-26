@@ -5,6 +5,7 @@
 def version = '1.0'
 
 def printHello() {
-  return "Hello, world!"
+  def value = "Hello, world!"
+  return value
 }
 
