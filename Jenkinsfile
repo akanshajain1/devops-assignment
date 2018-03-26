@@ -6,6 +6,8 @@ def helloworld = fileLoader.fromGit('fileloader/jenkinsfile',
 
 stage 'Run method from the loaded file'
 def test = ''
+        echo "Aaaa"
+        echo test
         test = helloworld.printHello()
         echo test
 
